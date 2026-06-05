@@ -3,108 +3,225 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Yael Perez Ochoa | Portfolio</title>
+  <title>Yael Perez Ochoa | Marketing & Communication Portfolio</title>
+  <meta name="description" content="Portfolio website for Yael Perez Ochoa, focused on entertainment marketing, creative strategy, brand strategy, and communication management." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="hero">
     <nav>
-      <h2>Yael Perez Ochoa</h2>
+      <a class="logo" href="#">Yael Perez Ochoa</a>
       <div class="nav-links">
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
         <a href="#contact">Contact</a>
       </div>
     </nav>
 
-    <div class="hero-content">
-      <p class="tag">Marketing • Film • Creative Strategy</p>
-      <h1>Hi, I’m Yael.</h1>
-      <p>
-        I’m a Communication Management graduate student interested in film marketing,
-        entertainment strategy, and creative advertising campaigns.
-      </p>
-      <a class="button" href="#projects">View My Work</a>
+    <div class="hero-grid">
+      <div class="hero-text">
+        <p class="tag">Marketing • Film • Creative Strategy</p>
+        <h1>Entertainment marketing and communication strategy portfolio.</h1>
+        <p>
+          I’m a USC Communication Management graduate student building a career in film marketing,
+          creative advertising, brand strategy, and audience-driven communication.
+        </p>
+        <div class="hero-buttons">
+          <a class="button" href="#projects">View Projects</a>
+          <a class="button secondary" href="mailto:yaelperezochoa@outlook.com">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrap">
+        <img src="assets/profile.jpg" alt="Portrait of Yael Perez Ochoa" class="hero-image" />
+      </div>
     </div>
   </header>
 
   <main>
-    <section id="about" class="section">
+    <section id="about" class="section about-section">
+      <p class="section-label">About</p>
       <h2>About Me</h2>
       <p>
-        I am passionate about using creative strategy, audience insight, and storytelling
-        to help brands and entertainment projects connect with people. My background includes
-        film marketing, business strategy, retail leadership, and communication-focused projects.
+        I am interested in the intersection of entertainment, marketing, and storytelling. My background
+        includes entertainment marketing, brand strategy, retail leadership, customer-facing communication,
+        and academic consulting projects. I enjoy turning research, audience insights, and creative ideas
+        into clear recommendations that teams can actually use.
       </p>
+
+      <div class="quick-info">
+        <div>
+          <h3>Current Focus</h3>
+          <p>Film marketing, creative advertising, brand strategy, and entertainment communications.</p>
+        </div>
+        <div>
+          <h3>Education</h3>
+          <p>USC M.A. Communication Management • UCR B.S. Business Administration</p>
+        </div>
+        <div>
+          <h3>Strengths</h3>
+          <p>Creative briefs, campaign ideas, strategy decks, audience insights, and bilingual communication.</p>
+        </div>
+      </div>
     </section>
 
     <section id="experience" class="section">
+      <p class="section-label">Experience</p>
       <h2>Experience</h2>
 
-      <div class="card">
-        <h3>Film Marketing Intern</h3>
-        <p class="meta">Entertainment Marketing</p>
-        <p>
-          Supported campaign research, creative briefs, social media ideas, project tracking,
-          and marketing materials for film-related projects.
-        </p>
+      <div class="featured-experience">
+        <img src="assets/highland.jpg" alt="Yael Perez Ochoa at Highland Film Studio" />
+        <div>
+          <h3>Entertainment Marketing & Communications Intern</h3>
+          <p class="meta">Highland Film Studio • Los Angeles, CA</p>
+          <p>
+            Supported creative development and marketing communication for film titles through campaign ideas,
+            social concepts, AV briefs, creative organization, and cross-functional project support.
+          </p>
+        </div>
       </div>
 
-      <div class="card">
-        <h3>Executive Intern</h3>
-        <p class="meta">Target</p>
-        <p>
-          Gained experience in leadership, operations, team communication, and problem-solving
-          in a fast-paced retail environment.
-        </p>
+      <div class="experience-grid">
+        <div class="card">
+          <h3>Brand Strategy Intern</h3>
+          <p class="meta">Pai Pai Ecotourism Park</p>
+          <p>
+            Built executive-ready strategy recommendations for pricing, packaging, guest experience,
+            marketing, cruise conversion, and online payment improvements.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Stores Executive Intern</h3>
+          <p class="meta">Target</p>
+          <p>
+            Supported store operations, fulfillment, customer service, reporting, and team execution in a
+            fast-paced retail environment.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Guide / Translator</h3>
+          <p class="meta">Pai Pai Ecotourism Park</p>
+          <p>
+            Assisted guests through bilingual communication, customer service, and cultural storytelling in
+            a tourism environment.
+          </p>
+        </div>
       </div>
 
-      <div class="card">
-        <h3>Guide / Translator</h3>
-        <p class="meta">Pai Pai Ecotourism Park</p>
-        <p>
-          Assisted guests through bilingual communication, customer service, and cultural
-          storytelling in a tourism environment.
-        </p>
+      <div class="photo-card">
+        <img src="assets/target.jpg" alt="Yael Perez Ochoa with Target team members" />
       </div>
     </section>
 
     <section id="projects" class="section">
+      <p class="section-label">Selected Work</p>
       <h2>Projects</h2>
+      <p class="section-intro">
+        A selection of strategy, marketing, communication, and analysis projects. These examples show my work
+        across entertainment, tourism, crisis communication, pricing, and business strategy.
+      </p>
 
       <div class="project-grid">
-        <div class="card">
-          <h3>Film Campaign Ideas</h3>
+        <article class="project-card">
+          <span class="project-type">Tourism Strategy</span>
+          <h3>Pai Pai Cruise Growth Plan</h3>
           <p>
-            Developed creative social media and experiential marketing ideas for theatrical
-            film campaigns.
+            A strategy deck focused on converting Ensenada cruise passengers into Pai Pai visitors through
+            stronger booking, social proof, English social content, and cruise-friendly messaging.
           </p>
-        </div>
+          <a href="docs/Pai-Pai-Cruise-Growth-Plan-Ensenada.pdf" target="_blank">View Project</a>
+        </article>
 
-        <div class="card">
-          <h3>Pai Pai Marketing Consulting</h3>
+        <article class="project-card">
+          <span class="project-type">Pricing Strategy</span>
+          <h3>Dreamers Package Pricing & Value Proposal</h3>
           <p>
-            Created marketing recommendations focused on audience targeting, social media,
-            annual passes, and customer engagement.
+            A pricing and value recommendation for Pai Pai’s Dreamers package, evaluating price points,
+            perceived value, guest experience, and premium add-ons.
           </p>
-        </div>
+          <a href="docs/Pai-Pai-Dreamers-Pricing-Value-Proposal.pdf" target="_blank">View Project</a>
+        </article>
 
-        <div class="card">
-          <h3>Creative Strategy Work</h3>
+        <article class="project-card">
+          <span class="project-type">Operations Strategy</span>
+          <h3>Online Payments & No-Show Reduction Plan</h3>
           <p>
-            Built class and internship projects focused on communication strategy, branding,
-            and campaign execution.
+            A practical plan to reduce reservation no-shows through payment commitment, online payment links,
+            booking tools, and clearer confirmation flows.
           </p>
-        </div>
+          <a href="docs/Pai-Pai-Online-Payments-No-Show-Reduction-Plan.pdf" target="_blank">View Project</a>
+        </article>
+
+        <article class="project-card">
+          <span class="project-type">Food & Packaging Strategy</span>
+          <h3>Pricing + Packaging Simple Rules</h3>
+          <p>
+            A recommendation deck using cruise visitor behavior to guide food, pricing, packaging, and trust-building
+            decisions for Ensenada visitors.
+          </p>
+          <a href="docs/Pai-Pai-Pricing-Packaging-Simple-Rules.pdf" target="_blank">View Project</a>
+        </article>
+
+        <article class="project-card">
+          <span class="project-type">Crisis Communication</span>
+          <h3>Individual Crisis Communication Plan</h3>
+          <p>
+            A personal brand and reputation plan focused on prevention, crisis response, stakeholder trust,
+            and professional communication.
+          </p>
+          <a href="docs/Individual-Crisis-Communication-Plan.pdf" target="_blank">View Project</a>
+        </article>
+
+        <article class="project-card">
+          <span class="project-type">Financial Analysis</span>
+          <h3>Meta Financial Statement Analysis</h3>
+          <p>
+            A mini financial statement analysis evaluating Meta’s liquidity, leverage, profitability, valuation,
+            strategic priorities, and stakeholder concerns.
+          </p>
+          <a href="docs/Meta-Mini-Financial-Statement-Analysis.pptx" target="_blank">View Project</a>
+        </article>
       </div>
     </section>
 
+    <section id="resume" class="section resume-section">
+      <p class="section-label">Resume</p>
+      <h2>Resume Highlights</h2>
+
+      <div class="resume-grid">
+        <div class="resume-card">
+          <h3>Education</h3>
+          <p><strong>University of Southern California</strong><br />M.A. Communication Management</p>
+          <p><strong>University of California, Riverside</strong><br />B.S. Business Administration</p>
+        </div>
+
+        <div class="resume-card">
+          <h3>Skills</h3>
+          <p>
+            Creative strategy, campaign research, communication planning, audience insights, project organization,
+            Excel reporting, presentation building, bilingual Spanish/English communication.
+          </p>
+        </div>
+      </div>
+
+      <a class="button" href="docs/Yael-Perez-Ochoa-Resume-2026.docx" target="_blank">Download Resume</a>
+    </section>
+
     <section id="contact" class="section contact">
-      <h2>Contact</h2>
-      <p>Interested in connecting? Reach out below.</p>
-      <a class="button" href="mailto:ypere047@ucr.edu">Email Me</a>
-      <a class="button secondary" href="#" target="_blank">LinkedIn</a>
+      <p class="section-label">Contact</p>
+      <h2>Let’s Connect</h2>
+      <p>
+        I’m open to opportunities in film marketing, entertainment, creative advertising, communication strategy,
+        and brand strategy.
+      </p>
+      <div class="contact-buttons">
+        <a class="button" href="mailto:yaelperezochoa@outlook.com">yaelperezochoa@outlook.com</a>
+        <a class="button secondary dark" href="https://www.linkedin.com/in/yael-perez-ochoa-a008a52b1" target="_blank">LinkedIn</a>
+      </div>
     </section>
   </main>
 
