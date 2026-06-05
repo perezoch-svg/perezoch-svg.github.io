@@ -205,7 +205,7 @@ nav {
 }
 
 .meta {
-  color: #7b4cff;
+  color: #6b3df4;
   font-weight: 800;
   margin-bottom: 10px;
 }
@@ -218,6 +218,10 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
+}
+
+.experience-grid.two-column {
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .photo-card {
@@ -336,6 +340,7 @@ footer {
   .featured-experience,
   .quick-info,
   .experience-grid,
+  .experience-grid.two-column,
   .project-grid,
   .resume-grid {
     grid-template-columns: 1fr;
